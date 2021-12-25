@@ -6,11 +6,7 @@
 
 # デモ
 
-![]()
-
-# 特徴
-
-* セールスポイント
+* [DEMO](https://ytyaru.github.io/Html.CSS.Novel.Setting.Dialog.20211225195150/)
 
 # 開発環境
 

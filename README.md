@@ -6,11 +6,7 @@ Create a setting screen with dialog.
 
 # DEMO
 
-![]()
-
-# Features
-
-* sales point
+* [DEMO](https://ytyaru.github.io/Html.CSS.Novel.Setting.Dialog.20211225195150/)
 
 # Requirement
 
