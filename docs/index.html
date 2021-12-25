@@ -14,12 +14,18 @@
 <script src="js/main.js"></script>
 </head>
 <body>
-    <input type="range" id="FontSize" name="FontSize" min="20" max="40" value="30" placeholder="30">
-    <label for="volume"><span id="FontSize_"></span>字／行</label>
+    <dialog id="Setting" onclick="if(this.closest('#SettingContent') === null) { this.close(); }">
+        <div id="SettingContent">
+        <input type="range" id="FontSize" name="FontSize" min="20" max="40" value="30" placeholder="30">
+        <label for="volume"><span id="FontSize_"></span>字／行</label>
+        </div>
+    </dialog>
+    <input type="button" value="⚙" title="設定" onclick="document.getElementById('Setting').showModal();">
 
     <p>１２３４５６７８９０１２３４５６７８９０１２３４５６７８９０１２３４５６７８９０</p>
     <p>「<ruby>鉤括弧<rt>かぎかっこ</rt></ruby>の位置を確認する」</p>
     <p>　句読点の、位置を確認する。</p>
+    <p>　右上の⚙ボタンをクリックするとフォントサイズを変更できます。ダイアログの外側をクリックすると閉じます。</p>
 
     <footer>
         <span>© 2021 ytyaru</span>
